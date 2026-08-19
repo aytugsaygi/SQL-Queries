@@ -1,0 +1,2 @@
+--SELECT OgrenciNo, Ad, Soyad,SinavNotu1 AS Midterm1, SinavNotu2 AS Midterm2, Final FROM Ogrenci 
+SELECT OgrenciNo, Ad, Soyad,SinavNotu1 AS Midterm1, SinavNotu2 AS Midterm2, Final, (SinavNotu1+SinavNotu2+Final) / 3 AS Average FROM Ogrenci

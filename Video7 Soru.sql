@@ -1,0 +1,2 @@
+--ALTER TABLE Ogrenci ADD Final TINYINT DEFAULT 0
+SELECT * FROM Ogrenci

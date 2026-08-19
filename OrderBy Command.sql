@@ -1,0 +1,6 @@
+--SELECT * FROM Ogrenci ORDER BY OgrenciNo DESC
+--SELECT * FROM Ogrenci ORDER BY OgrenciNo ASC
+--SELECT * FROM Ogrenci ORDER BY Ad
+--SELECT * FROM Ogrenci ORDER BY Ad DESC
+--SELECT * FROM Ogrenci ORDER BY ErkekMi DESC, Ad DESC
+--SELECT * FROM Ogrenci ORDER BY ErkekMi, Ad 
