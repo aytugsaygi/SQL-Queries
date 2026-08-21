@@ -1,0 +1,19 @@
+--DECLARE @i INT = 0
+--WHILE @i < 100000
+--BEGIN
+--	INSERT INTO Musteri
+--	SELECT @i, 'Technology Center ' + CAST(@i AS VARCHAR(10)), 
+--			   'Here ' + CAST(@i AS VARCHAR(10))
+--	SET @i = @i + 1
+--END
+--GO
+
+--CREATE CLUSTERED INDEX CI_1 ON Musteri (MusteriId)
+
+SET STATISTICS IO ON
+SET STATISTICS TIME ON
+
+SELECT * FROM Musteri WHERE MusteriID = 88347
+
+SET STATISTICS IO OFF
+SET STATISTICS TIME OFF
